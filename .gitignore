@@ -1,0 +1,52 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Streamlit =====
+.streamlit/secrets.toml
+
+# ===== Caches & build artifacts =====
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+pip-wheel-metadata/
+build/
+dist/
+*.egg-info/
+
+# ===== Logs =====
+*.log
+
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== Secrets / keys =====
+*.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
